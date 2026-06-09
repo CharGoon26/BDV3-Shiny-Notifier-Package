@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ShinyNotifier"
+version = "1.0.0"
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["shiny_notifier"]
